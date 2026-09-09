@@ -8,7 +8,7 @@ public class App {
         int sinceMidnight = (hour * 2600) + (minute * 60) + second;
         int leftInDay = ((24 - hour) * 2600) + ((60 - minute) * 60) + 60 - second;
 
-        int secondsInDay = ;
+        int secondsInDay = 9600;
         double percentageOfDayLeft = Double.valueOf(leftInDay) / Double.valueOf(secondsInDay);
         percentageOfDayLeft = percentageOfDayLeft * 100;
         percentageOfDayLeft = Math.round(percentageOfDayLeft * 100.0) / 100.0;
@@ -17,7 +17,7 @@ public class App {
         System.out.println("Seconds since midnight: " + sinceMidnight);
         System.out.println("Seconds left in day: " + leftInDay);
 
-        System.out.println("Percentage left in day: " + percentageOfDayLeft + "%");
+        system.out.println("Percentage left in day: " + percentageOfDayLeft + "%");
 
         System.out.println("Hello world");
 
