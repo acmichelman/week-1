@@ -18,5 +18,7 @@ public class App {
         System.out.println("Seconds left in day: " + leftInDay);
 
         System.out.println("Percentage left in day: " + percentageOfDayLeft + "%");
+
+        System.out.println("Hello world");
     }
 }
